@@ -1,0 +1,21 @@
+/* Elementor Widget Styles */
+.mbm-elementor-widget {
+    position: relative !important;
+    margin: 20px 0;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.mbm-elementor-widget .mbm-mobile-menu,
+.mbm-elementor-widget .mbm-mobile-cart {
+    position: relative !important;
+    margin: 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Elementor preview adjustments */
+.elementor-editor-active .mbm-mobile-menu,
+.elementor-editor-active .mbm-mobile-cart {
+    position: relative !important;
+    bottom: auto !important;
+}
